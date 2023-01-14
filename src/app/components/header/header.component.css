@@ -1,0 +1,53 @@
+.navbar{
+  height: 70px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white
+
+}
+
+.navbar ul{
+ list-style: none;
+}
+
+.navbar ul li{
+  position: relative;
+  float: left;
+}
+
+.navbar ul li a{
+font-size: 20px;
+padding: 20px;
+color: black;
+display: block;
+}
+
+
+.navbar ul li a:hover{
+  background: #0a3b39;
+  color: white;
+}
+
+.navbar ul li ul{
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: white;
+  display: none;
+  }
+
+  .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1);
+    }
+
+    .navbar ul li:hover > ul{
+      display: initial;
+    }
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+

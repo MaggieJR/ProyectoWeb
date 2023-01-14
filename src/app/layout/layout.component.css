@@ -1,0 +1,29 @@
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  color:rgb(73, 212, 189)
+}
+
+hr{
+  border-color: #f05f44;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.layout{
+  background: url(../../assets/img/Principal.jpg) no-repeat center center fixed;
+  height: 100vh;
+}
+
+.btn-xl{
+  background-color:rgb(38, 110, 107) ;
+  border-color: rgb(38, 110, 107);
+  padding: 1rem 2rem;
+  border-radius: 400px;
+}
+
+.btn-xl:hover{
+  background-color:#0a3b39;
+  border-color: #0a3b39;
+  border-width: 5px;
+}
